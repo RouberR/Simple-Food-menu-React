@@ -8,16 +8,16 @@ export const Menu = () => {
     <div className="menu-container">
       <div className="menu-title">
         <h1>Menu</h1>
-        <div className="menu-list">
-          {Data.map((item, index) => (
-            <Card
-              name={item.name}
-              price={item.price}
-              image={item.image}
-              key={index}
-            />
-          ))}
-        </div>
+      </div>
+      <div className="menu-list">
+        {Data.map((item, index) => (
+          <Card
+            name={item.name}
+            price={item.price}
+            image={item.image}
+            key={index}
+          />
+        ))}
       </div>
     </div>
   );
