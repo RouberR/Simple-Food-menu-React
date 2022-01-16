@@ -8,12 +8,12 @@ export const Navbar = () => {
         <div>
             <div className="navbar">
                 <div className="leftSide">
-                    <img src={logo} alt="logo"/>
+                    <Link to="/"><img src={logo} alt="logo"/></Link>
                 </div>
                 <div className="rightSide">
                 
                     <Link to="/">Home</Link>
-                    <Link to="/">Menu</Link>
+                    <Link to="/Menu">Menu</Link>
                     <Link to="/">About</Link>
                     <Link to="/">Contact</Link>
                  

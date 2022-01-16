@@ -7,7 +7,7 @@ export const Home = () => {
       <div className="headerContainer">
         <h1>Food Corner</h1>
         <p>The best dishes from around the world</p>
-        <Link to="/"><button>Order Now</button></Link>
+        <Link to="/menu"><button>Order Now</button></Link>
       </div>
     </div>
   );

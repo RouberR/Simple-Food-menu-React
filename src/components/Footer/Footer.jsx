@@ -11,16 +11,16 @@ export const Footer = () => {
 
         <div className="footer">
             <div class="left-container">
-            <GitHubIcon color="secondary" fontSize="large"/>
+            <a href="https://github.com/RouberR" target="_blank" rel="noreferrer"><GitHubIcon color="secondary" fontSize="large"/></a>
          
             </div>
-            
+            <p>2022 Rouber</p>
             <div className="right-container">
 
-                <InstagramIcon color="secondary" fontSize="large"/>
-                <LinkedInIcon color="secondary" fontSize="large"/>
-                <TelegramIcon color="secondary" fontSize="large"/>
-                <FacebookIcon color="secondary" fontSize="large"/>
+                <a href="https://www.instagram.com/rouuber/" target="_blank" rel="noreferrer"><InstagramIcon color="secondary" fontSize="large"/></a>
+                <a href="https://www.linkedin.com/in/rouber/" target="_blank" rel="noreferrer"><LinkedInIcon color="secondary" fontSize="large"/></a>
+                <a href="https://t.me/Rouber" target="_blank" rel="noreferrer"><TelegramIcon color="secondary" fontSize="large"/></a>
+                <a href="https://web.facebook.com/evgen.fiadosenka.1/" target="_blank" rel="noreferrer"><FacebookIcon color="secondary" fontSize="large"/></a>
                
                 
              
