@@ -3,7 +3,6 @@ import { Data } from "../../Data.js";
 import { Card } from "../Card/Card.jsx";
 import "./menu.scss";
 export const Menu = () => {
-  console.log(Data);
   return (
     <div className="menu-container">
       <div className="menu-title">
