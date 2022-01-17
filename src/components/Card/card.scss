@@ -36,3 +36,10 @@
   cursor: pointer;
   width: 305px;
 }
+
+
+@media(max-width: 768px) {
+  .card{
+    margin:0;
+  }
+}
